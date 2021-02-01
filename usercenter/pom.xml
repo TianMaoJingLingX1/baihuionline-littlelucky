@@ -59,10 +59,16 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!--服务注册与发现-->
+        <!--Nacos服务注册与发现-->
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
+        <!--Nacos配置中心-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
         </dependency>
 
         <dependency>

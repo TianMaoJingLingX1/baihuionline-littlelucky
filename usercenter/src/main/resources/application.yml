@@ -1,13 +1,27 @@
 server:
   port: 9000
+
+nacos:
+  config:
+    server-addr: 127.0.0.1:8848
+    namespace: 26dd1a9d-ade9-4dda-8b84-2c82b8e380dd
+
 spring:
-  application:
-    name: chatApp-userCenter
+#  application:
+#    name: chatApp-userCenter
 # 注册服务到nacos
   cloud:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+#      config:
+#        # 启动nacos配置
+#        enabled: true
+#        server-addr: ${nacos.config.server-addr}
+#        namespace: ${nacos.config.namespace}
+#        prefix: nacos-config
+#        file-extension: yaml
+#        group: DEFAULT_GROUP
 #management:
 #  endpoints:
 #    web:
