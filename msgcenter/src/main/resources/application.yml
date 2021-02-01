@@ -1,0 +1,10 @@
+server:
+  port: 9001
+
+spring:
+  # 注册服务到nacos
+  cloud:
+    nacos:
+      discovery:
+        namespace: 26dd1a9d-ade9-4dda-8b84-2c82b8e380dd
+        server-addr: 127.0.0.1:8848
