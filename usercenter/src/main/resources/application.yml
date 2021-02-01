@@ -14,6 +14,7 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+        namespace: 26dd1a9d-ade9-4dda-8b84-2c82b8e380dd
 #      config:
 #        # 启动nacos配置
 #        enabled: true
