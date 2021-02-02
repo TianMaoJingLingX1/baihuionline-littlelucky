@@ -7,7 +7,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableDiscoveryClient
-@EnableFeignClients
+@EnableFeignClients("com.baihuionline.msgcenter.msg.service")
 public class MsgcenterApplication {
 
     public static void main(String[] args) {

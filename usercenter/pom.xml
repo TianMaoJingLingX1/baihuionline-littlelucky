@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>open.source.test</groupId>
-    <artifactId>nacos-discovery-test</artifactId>
+    <artifactId>usercenter</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>usercenter</name>
     <packaging>jar</packaging>
